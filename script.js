@@ -19,6 +19,9 @@ function lightFunction(){ //For now to make the light button work without maths
     //refer to previous projects to make easier.
     lightPower++;
     temperature++;
+
+    //need to use a loop when light function = true.
+    //need toggle on and off for lightSwitch
 }
 
 
