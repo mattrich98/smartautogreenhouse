@@ -12,3 +12,23 @@ let window = true;
 let fan = false;
 let waterValve = false;
 let heater = false;
+
+
+function lightFunction(){ //For now to make the light button work without maths
+    //on click eventlistner needed for button
+    //refer to previous projects to make easier.
+
+}
+
+
+
+
+
+
+function windowFunction(){}
+
+function fanFunction(){}
+
+function waterFunction(){}
+
+function heaterFunction(){}
