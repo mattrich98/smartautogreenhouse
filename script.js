@@ -26,10 +26,10 @@ function lightFunction() {
 
   if (lightSwitch == true) {
     console.log('testing this works');
-    //Light switch <= 100 then it will increment upwards
+    //lightPower <= 100 then it will increment upwards
   } else {
     console.log('opposite');
-    //Light switch > 0 then it will increment downwards
+    //lightPower > 0 then it will increment downwards
   }
 }
 
