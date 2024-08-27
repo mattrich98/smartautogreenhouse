@@ -10,3 +10,5 @@ Temperature, humidity, light, soil moisture. (4 SENSORS)
 
 Fans/Vents, Windows, LED Lights, Heater, Water Pump(Sprinklers/Valves),  (4/5 ADJUSTABLES)
 (^ Crops are affected by the above ^)
+
+I want to stubbornly use the while loop and figure out how to slow down the intervals
