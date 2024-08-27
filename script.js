@@ -7,7 +7,7 @@ let lightPower = 0;
 let time = 1000;
 
 //Activators/Adjustables
-let lightSwitch = false;
+let lightSwitch = true;
 let window = true;
 let fan = false;
 let waterValve = false;
@@ -16,18 +16,18 @@ let heater = false;
 function lightFunction() {
   lightSwitch = !lightSwitch;
 
-  /* //get HTML lightSwitch ID div and add click ability with toggle on and off activator function
-    document.getElementById("lightSwitch").addEventListener("click"), function lightToggle() {
-        lightSwitch = !lightSwitch;
-    }
-*/
-document.getElementById("lightButton").addEventListener("click", function lightIncrease() { 
+  /*document.getElementById("lightButton").addEventListener("click", function lightIncrease() { 
     lightPower+= 1;
-}
+}*/
 
+  if (lightSwitch == true) {
+    console.log('testing this works');
+  } else {
+    console.log('opposite');
+  }
 }
 
 lightFunction();
-lightFunction();
 
+lightFunction();
 console.log(lightSwitch);
