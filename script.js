@@ -24,23 +24,34 @@ function lightFunction() {
     lightPower+= 1;
 }*/
 
-  if (lightSwitch == true && (lightPower <= 100)) {
-    console.log('testing this works');
+
+while(lightSwitch == true && (lightPower != 100)){
+    //console.log('testing this works');
     lightPower++
+    console.log(lightPower);
     //lightPower <= 100 then it will increment upwards
-
-
+}
+/*
   } else {
     console.log('opposite');
     //lightPower > 0 then it will increment downwards
 
     lightPower--
-  }
+}
+*/ 
 }
 
-lightFunction();
 
 lightFunction();
 
-console.log(lightPower)
-console.log(lightSwitch);
+lightFunction();
+
+
+console.log(lightPower);
+
+//Light Function Testing ----------------------------------------
+
+/*if (lightSwitch == true && (lightPower <= 100)) {
+    console.log('testing this works');
+    lightPower++
+    //lightPower <= 100 then it will increment upwards*/
