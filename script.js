@@ -15,7 +15,7 @@ let heater = false;
 
 
 function lightFunction(){ //For now to make the light button work without maths
-    //on click eventlistner needed for button
+    //on click eventlistener needed for button
     //refer to previous projects to make easier.
  
 }
