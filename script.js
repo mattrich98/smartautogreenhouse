@@ -31,6 +31,11 @@ while(lightSwitch == true && (lightPower != 100)){
     console.log(lightPower);
     //lightPower <= 100 then it will increment upwards
 }
+
+while(lightSwitch == false && (lightPower != 0)){
+    lightPower--
+    console.log(lightPower);
+}
 /*
   } else {
     console.log('opposite');
@@ -40,7 +45,6 @@ while(lightSwitch == true && (lightPower != 100)){
 }
 */ 
 }
-
 
 lightFunction();
 
