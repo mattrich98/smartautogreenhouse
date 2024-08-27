@@ -35,6 +35,7 @@ while(lightSwitch == true && (lightPower != 100)){
 while(lightSwitch == false && (lightPower != 0)){
     lightPower--
     console.log(lightPower);
+
 }
 /*
   } else {
