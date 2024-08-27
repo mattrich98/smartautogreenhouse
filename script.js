@@ -24,12 +24,17 @@ function lightFunction() {
     lightPower+= 1;
 }*/
 
-  if (lightSwitch == true) {
+  if (lightSwitch == true && (lightPower <= 100)) {
     console.log('testing this works');
+    lightPower++
     //lightPower <= 100 then it will increment upwards
+
+
   } else {
     console.log('opposite');
     //lightPower > 0 then it will increment downwards
+
+    lightPower--
   }
 }
 
@@ -37,7 +42,5 @@ lightFunction();
 
 lightFunction();
 
-
+console.log(lightPower)
 console.log(lightSwitch);
-
-//Light Function Testing ----------------------------------------
