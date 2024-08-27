@@ -13,6 +13,10 @@ let fan = false;
 let waterValve = false;
 let heater = false;
 
+
+//Light Function Testing ----------------------------------------
+
+
 function lightFunction() {
   lightSwitch = !lightSwitch;
 
@@ -30,4 +34,8 @@ function lightFunction() {
 lightFunction();
 
 lightFunction();
+
+
 console.log(lightSwitch);
+
+//Light Function Testing ----------------------------------------
