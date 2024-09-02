@@ -1,3 +1,32 @@
-#lightSwitch { /*hashtag is for CSS ID */
-    background-color: white;
+#inputButton { /*hashtag is for CSS ID */
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    height: 30px;;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    z-index: 9999;
+    position:relative
+}
+
+#profileLink {
+    width: 250px;
+    height: 30px;;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    text-align: center;
+    font-size: 15px;
+    font-weight: 900;
+    z-index: 9999;
+    position:relative
 }
