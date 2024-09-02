@@ -6,7 +6,7 @@ As part of the software development bootcamp curriculum, each of us is tasked wi
 <ol>
 <li><s>Basic layout done</s></li>
 <li><s> Buttons that have booleans for true and false</s></li>
-<li>Sunlight simulator, maybe using math.random method</li>
+<li>Sunlight simulator, maybe using math.random method (Maybe I'll make simulators for cold day, hot day, very hot day, mild day with pressable buttons)</li>
 <li>parallel system that implements how variables effect each other and other numbers/etc. (Using if/else/elseif statements) </li>
 <li>Temperature simulator, it is effected by other variables</li>
 <li>Output box (Not completely necessary as I will have an image output box; but I will see when I get around to it)</li>
