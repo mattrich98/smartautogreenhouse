@@ -1,25 +1,13 @@
 let lightButtonStatus = 0;
 
-function lightFunction(){
-
-  
-    for (let i = 0; i < 100; i++) { 
-    if(lightButtonStatus < 100){
-      lightButtonStatus++
-    console.log(lightButtonStatus);
+function lightFunction() {
+  for (let i = 0; i < 100; i++) {
+    if (lightButtonStatus < 100) {
+      lightButtonStatus++;
+      console.log(lightButtonStatus);
+    }
   }
 }
-}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -40,8 +28,6 @@ let time = 1000;*/
 let fan = false;
 let waterValve = false;
 let heater = false;*/
-
-
 
 /*
 if(lightButtonStatus == 100){
