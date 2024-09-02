@@ -3,7 +3,7 @@ let windowStatus = false;
 let heaterStatus = false;
 let sprinklerStatus = false;
 
-
+// Temperature ------------------------------ //
 function tempUP() {
   temperatureStatus += 5;
   console.log(temperatureStatus);
@@ -13,7 +13,9 @@ function tempDOWN() {
   temperatureStatus -= 5;
   console.log(temperatureStatus);
 }
+//------------------------------------------  //
 
+// Window ------------------------------ //
 function windowOpen() {
   windowStatus = true;
   console.log(windowStatus);
@@ -23,6 +25,47 @@ function windowClose() {
   windowStatus = false;
   console.log(windowStatus);
 }
+//------------------------------------------  //
+
+// Heater ------------------------------ //
+function heaterON() {
+  heaterStatus = true;
+  console.log(heaterStatus);
+}
+
+function heaterOFF() {
+  heaterStatus = false;
+  console.log(heaterStatus);
+}
+//------------------------------------------  //
+
+// Sprinkler ------------------------------ //
+function sprinklerON() {
+  sprinklerStatus = true;
+  console.log(sprinklerStatus);
+}
+
+function sprinklerOFF() {
+  sprinklerStatus = false;
+  console.log(sprinklerStatus);
+}
+//------------------------------------------  //
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*function lightFunctionUP() {
   setTimeout(lightFunctionUP, 750)
