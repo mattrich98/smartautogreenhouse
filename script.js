@@ -18,7 +18,7 @@ function startGame() {
   console.log("test");
 }
 
-/*
+
 function lightFunction(){
 
 if(lightButtonStatus == true){
@@ -35,4 +35,4 @@ if(lightButtonStatus == false){
   }
 }
 
-}*/
+}
