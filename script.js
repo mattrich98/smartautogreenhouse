@@ -1,19 +1,28 @@
-let lightButtonStatus = 0;
-
-  function lightFunctionUP() {
-    lightButtonStatus += 5;
-    console.log(lightButtonStatus);
-  }
-
-  function lightFunctionDOWN() {
-    lightButtonStatus -= 5;
-    console.log(lightButtonStatus);
-  }
+let temperatureStatus = 0;
+let windowStatus = false;
+let heaterStatus = false;
+let sprinklerStatus = false;
 
 
+function tempUP() {
+  temperatureStatus += 5;
+  console.log(temperatureStatus);
+}
 
+function tempDOWN() {
+  temperatureStatus -= 5;
+  console.log(temperatureStatus);
+}
 
+function windowOpen() {
+  windowStatus = true;
+  console.log(windowStatus);
+}
 
+function windowClose() {
+  windowStatus = false;
+  console.log(windowStatus);
+}
 
 /*function lightFunctionUP() {
   setTimeout(lightFunctionUP, 750)
