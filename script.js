@@ -13,14 +13,13 @@ function tempDOWN() {
   temperatureStatus -= 5;
   console.log(temperatureStatus);
 }
-//------------------------------------------  //
+
 
 // Window ------------------------------ //
 function windowOpen() {
   windowStatus = !windowStatus;
   console.log(windowStatus);
 }
-//------------------------------------------  //
 
 // Heater ------------------------------ //
 function heaterON() {
@@ -28,16 +27,11 @@ function heaterON() {
   console.log(heaterStatus);
 }
 
-//------------------------------------------  //
-
 // Sprinkler ------------------------------ //
 function sprinklerON() {
   sprinklerStatus = !sprinklerStatus;
   console.log(sprinklerStatus);
 }
-
-//------------------------------------------  //
-
 
 
 
