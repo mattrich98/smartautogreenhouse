@@ -10,7 +10,7 @@ function lightFunctionUP() {
 }
 
 function lightFunctionDOWN() {
-  for (let i = 0 >= 100; i >= 0; i--) {
+  for (let i = 100; i >= 0; i--) {
     if (lightButtonStatus > 0) {
       lightButtonStatus--;
       console.log(lightButtonStatus);
@@ -19,7 +19,7 @@ function lightFunctionDOWN() {
 }
 
 
-
+//for (let i = 0 >= 100; i >= 0; i--) {
 
 
 
