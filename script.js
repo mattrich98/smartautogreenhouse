@@ -4,9 +4,11 @@ function lightFunction(){
 
   
     for (let i = 0; i < 100; i++) { 
-    lightButtonStatus++
+    if(lightButtonStatus < 100){
+      lightButtonStatus++
     console.log(lightButtonStatus);
   }
+}
 }
 
 
