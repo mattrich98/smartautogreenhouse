@@ -7,7 +7,7 @@ let lightPower = 0;
 let time = 1000;
 
 //Activators/Adjustables
-let lightSwitch = true;
+let lightButtonStatus = false
 let window = true;
 let fan = false;
 let waterValve = false;
@@ -15,16 +15,16 @@ let heater = false;
 
 
 
-function lightFunction() {
+function lightFunction(){
 
-if(lightSwitch == true){
+if(lightButtonStatus == true){
     console.log("test");
     for (let i = 0; i <= 100; i++) { 
     console.log(i);
   }
 }
 
-if(lightSwitch == false){
+if(lightButtonStatus == false){
     console.log("test");
     for (let i = 0; i >= 100; i--) { 
     console.log(i);
