@@ -24,15 +24,21 @@ function lightFunction() {
     lightPower+= 1;
 }*/
 
+buttonIncrementer = i;
+if(lightSwitch == true){
 
-for (let i = 0; i <= 100; i++) {
-  console.log(i);
+  if(lightSwitch == true){
+    console.log("test");
+    for (let i = 0; i <= 100; i++) { 
+    console.log(i);
+  }
 }
 
 for (let i = 0; i >= 100; i--) {
-  console.log(i);
+  //console.log(i);
 }
 
+console.log(buttonIncrementer);
 
 /*while(lightSwitch == true && (lightPower != 100)){
     //console.log('testing this works');
