@@ -1,14 +1,16 @@
 <h1>Industry Week Project: Smart Automated Greenhouse System</h1>
+As part of the software development bootcamp curriculum, each of us is tasked with creating a project that demonstrates an automated greenhouse.
+<br>
+<hr>
+<strong><u>Plans:</u></strong>
+<ol>
+<li><s>Basic layout done</s></li>
+<li><s> Buttons that have boleans for true and false</s></li>
+<li>Sunlight simulator, maybe using math.random method</li>
+<li>parallel system that implements how variables effect each other and other numbers/etc. </li>
+</ol> 
+<hr>
 
-As part of the software development bootcamp curriculum, we are tasked to each make a project that demonstrates a greenhouse
-that can grow a plant under specific conditions related with temperature, windows open/closed and other.
 
-I plan to use HTML, CSS and Javascript to create the project as I am more comfortable with that compared to Python.
-
-Adjustable environmental factors:
-Temperature, humidity, light, soil moisture. (4 SENSORS) 
-
-Fans/Vents, Windows, LED Lights, Heater, Water Pump(Sprinklers/Valves),  (4/5 ADJUSTABLES)
-(^ Crops are affected by the above ^)
-
-I cant use a while loop because you cannot slowdown intervals in one. Therefore I have to use a for loop. 
+- I wanted to practice implenting 'for' and 'while' loops, but ended up not using them because it was too complicated and just served as an additional feature.
+- However, while trying to implement these loops, I've become a little more familiar with them and understand how to make use of them.
