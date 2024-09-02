@@ -16,7 +16,6 @@ let heater = false;
 
 
 function lightFunction() {
-  lightSwitch = !lightSwitch;
 
 if(lightSwitch == true){
     console.log("test");
