@@ -17,38 +17,25 @@ function tempDOWN() {
 
 // Window ------------------------------ //
 function windowOpen() {
-  windowStatus = true;
-  console.log(windowStatus);
-}
-
-function windowClose() {
-  windowStatus = false;
+  windowStatus = !windowStatus;
   console.log(windowStatus);
 }
 //------------------------------------------  //
 
 // Heater ------------------------------ //
 function heaterON() {
-  heaterStatus = true;
+  heaterStatus = !heaterStatus;
   console.log(heaterStatus);
 }
 
-function heaterOFF() {
-  heaterStatus = false;
-  console.log(heaterStatus);
-}
 //------------------------------------------  //
 
 // Sprinkler ------------------------------ //
 function sprinklerON() {
-  sprinklerStatus = true;
+  sprinklerStatus = !sprinklerStatus;
   console.log(sprinklerStatus);
 }
 
-function sprinklerOFF() {
-  sprinklerStatus = false;
-  console.log(sprinklerStatus);
-}
 //------------------------------------------  //
 
 
