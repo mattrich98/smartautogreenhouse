@@ -4,18 +4,6 @@ let heaterStatus = false;
 let sprinklerStatus = false;
 let lightStatus = false;
 
-// Temperature ------------------------------ //
-function tempUP() {
-  temperatureStatus += 5;
-  console.log(temperatureStatus);
-}
-
-function tempDOWN() {
-  temperatureStatus -= 5;
-  console.log(temperatureStatus);
-}
-
-
 // Window ------------------------------ //
 function windowOpen() {
   windowStatus = !windowStatus;
@@ -51,7 +39,17 @@ function lightON() {
 
 
 
+/*// Temperature ------------------------------ //
+function tempUP() {
+  temperatureStatus += 5;
+  console.log(temperatureStatus);
+}
 
+function tempDOWN() {
+  temperatureStatus -= 5;
+  console.log(temperatureStatus);
+}
+*/
 
 /*function lightFunctionUP() {
   setTimeout(lightFunctionUP, 750)
