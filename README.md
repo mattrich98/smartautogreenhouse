@@ -9,7 +9,7 @@ As part of the software development bootcamp curriculum, each of us is tasked wi
 <li>Sunlight simulator, maybe using math.random method</li>
 <li>parallel system that implements how variables effect each other and other numbers/etc. (Using if/else/elseif statements) </li>
 <li>Temperature simulator, it is effected by other variables</li>
-<li>Output box</li>
+<li>Output box (Not completely necessary but I will see when I get around to it</li>
 <li>image box area on top</li>
 </ol> 
 <hr>
