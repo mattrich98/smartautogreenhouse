@@ -25,7 +25,12 @@ function lightFunction() {
 }*/
 
 
-while(lightSwitch == true && (lightPower != 100)){
+for (let i = 0; i < 100; i++) {
+  console.log(i);
+}
+
+
+/*while(lightSwitch == true && (lightPower != 100)){
     //console.log('testing this works');
     lightPower++
     console.log(lightPower);
