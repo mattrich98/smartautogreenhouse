@@ -1,9 +1,18 @@
 let lightButtonStatus = 0;
 
-function lightFunction() {
+function lightFunctionUP() {
   for (let i = 0; i < 100; i++) {
     if (lightButtonStatus < 100) {
       lightButtonStatus++;
+      console.log(lightButtonStatus);
+    }
+  }
+}
+
+function lightFunctionDOWN() {
+  for (let i = 0 >= 100; i >= 0; i--) {
+    if (lightButtonStatus > 0) {
+      lightButtonStatus--;
       console.log(lightButtonStatus);
     }
   }
