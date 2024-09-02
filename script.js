@@ -3,6 +3,7 @@ let windowStatus = false;
 let heaterStatus = false;
 let sprinklerStatus = false;
 let lightStatus = false;
+let sunlightVariation = 0; //as the greenhouse adjusts to sunlight throughout the day, maybe I'll do something with math.random to simulate this.
 
 // Window ------------------------------ //
 function windowOpen() {
