@@ -7,7 +7,7 @@ As part of the software development bootcamp curriculum, each of us is tasked wi
 <li><s>Basic layout done</s></li>
 <li><s> Buttons that have booleans for true and false</s></li>
 <li>Sunlight simulator, maybe using math.random method</li>
-<li>parallel system that implements how variables effect each other and other numbers/etc. </li>
+<li>parallel system that implements how variables effect each other and other numbers/etc. (Using if/else/elseif statements) </li>
 <li>Output box</li>
 <li>image box area on top</li>
 </ol> 
