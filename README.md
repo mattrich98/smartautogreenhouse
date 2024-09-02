@@ -5,7 +5,7 @@ As part of the software development bootcamp curriculum, each of us is tasked wi
 <strong><u>Plans:</u></strong>
 <ol>
 <li><s>Basic layout done</s></li>
-<li><s> Buttons that have boleans for true and false</s></li>
+<li><s> Buttons that have booleans for true and false</s></li>
 <li>Sunlight simulator, maybe using math.random method</li>
 <li>parallel system that implements how variables effect each other and other numbers/etc. </li>
 </ol> 
