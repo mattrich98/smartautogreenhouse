@@ -1,26 +1,48 @@
 let lightButtonStatus = 0;
 
-function lightFunctionUP() {
+  function lightFunctionUP() {
+    lightButtonStatus += 5;
+    console.log(lightButtonStatus);
+  }
+
+  function lightFunctionDOWN() {
+    lightButtonStatus -= 5;
+    console.log(lightButtonStatus);
+  }
+
+
+
+
+
+
+/*function lightFunctionUP() {
+  setTimeout(lightFunctionUP, 750)
   for (let i = 0; i < 100; i++) {
+    
     if (lightButtonStatus < 100) {
       lightButtonStatus++;
       console.log(lightButtonStatus);
     }
   }
+  
 }
 
+
 function lightFunctionDOWN() {
+  ;
   for (let i = 100; i >= 0; i--) {
+    setTimeout(lightFunctionDOWN, 750000)
     if (lightButtonStatus > 0) {
       lightButtonStatus--;
+      
+      setTimeout(lightFunctionDOWN, 750000)
+      
       console.log(lightButtonStatus);
     }
   }
 }
 
-
-//for (let i = 0 >= 100; i >= 0; i--) {
-
+/*
 
 
 //Sensors
