@@ -14,6 +14,21 @@
     font-size: 15px;
     font-weight: 400;
     z-index: 9999;
+    position:relative;
+}
+
+#output {
+    background-color: rgb(221, 221, 221);
+    width: 396px;
+    height: 146px;
+    border: 2px groove black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    z-index: 9999;
     position:relative
 }
 
