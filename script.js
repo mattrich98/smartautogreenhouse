@@ -2,6 +2,7 @@ let temperatureStatus = 0;
 let windowStatus = false;
 let heaterStatus = false;
 let sprinklerStatus = false;
+let lightStatus = false;
 
 // Temperature ------------------------------ //
 function tempUP() {
@@ -33,7 +34,11 @@ function sprinklerON() {
   console.log(sprinklerStatus);
 }
 
-
+// Light ------------------------------ //
+function lightON() {
+ lightStatus = !lightStatus;
+  console.log(lightStatus);
+}
 
 
 
