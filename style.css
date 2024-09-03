@@ -3,7 +3,7 @@
     width: 396px;
     height: 300px;
     border: 2px groove black;
-
+    
     
     justify-content: center;
     align-items: center;
@@ -27,6 +27,7 @@
     height: 298px;
     border: 2px groove black;
     float: left;
+    position: releative;
 }
 
 #tempPercentage{
@@ -34,8 +35,6 @@
     height: 10px;
     background-color: red;
     position: absolute;
-    bottom: 0;
-    
 }
 
 #sunBar{
