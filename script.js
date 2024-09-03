@@ -45,7 +45,7 @@ function timerIntervals() {
       //document.getElementById("sunPercent").style.height = "35px";
     }
 
-    if (sunTimer >= 18) {
+    if (sunTimer >= 17) {
       sunStrength -= 3;
       document.getElementById("sunPercent").innerHTML = sunStrength;
       document.getElementById("sunPercent").style.height = sunStrength - sunStrength - sunStrength - sunStrength - sunStrength + "px";
@@ -62,7 +62,7 @@ function timerIntervals() {
       document.getElementById("windowButton").style.backgroundColor = "white";
     }
 
-    if(sunStrength >= 25){
+    if(sunStrength >= 22){
       sprinklerStatus == true;
       document.getElementById("sprinklerButton").style.backgroundColor = "green";
       sunStrength-= 2;
