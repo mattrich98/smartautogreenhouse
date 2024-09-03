@@ -6,6 +6,12 @@ let sprinklerStatus = false;
 let lightStatus = false;
 
 
+function HotDaySimulator(){
+  
+}
+
+
+
 // Window ------------------------------ //
 function windowON() {
   windowStatus = !windowStatus;
