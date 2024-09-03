@@ -4,11 +4,77 @@ let windowStatus = false;
 let heaterStatus = false;
 let sprinklerStatus = false;
 let lightStatus = false;
+let sunTimer = 0;
 
 
-function HotDaySimulator(){
+function hotSim(){
+  hotDayStart()
+  timerIntervals()
+  //console.log("testingworks");
+}
+
+
+function hotDayStart(){
+  //console.log("testing hotdayStart");
   
 }
+
+function timerIntervals() { 
+  sunTimer++; //gametime gets incremented +1 every second
+  console.log(sunTimer); //checks gameTime is incrementing (JavaScript is a single-threaded language)
+}
+  /*
+
+  if (timer <= 24) { //if the game time is less than 20 seconds, below will occur
+
+    //Loops gameIntervals, 750 = time between
+    setTimeout(timerIntervals, 750); //method to slow down the game timer.
+
+    //link with HTML timer
+    document.getElementById("timeNumber").innerHTML = timer; //links the gameTime variable with HTML timer div
+    document.getElementById("startButton").innerHTML = "Game Started"; //changes the start button inner letters
+
+    //stops play button press
+    document.getElementById("startButton").onclick = timer; //so you can only click the play button once to start game
+   
+
+    if (timer == 1){
+      document.getElementById('enemy1').style.display= displayRandom; 
+    }
+
+  //stops setTimeout loop
+  } else if (timer >= 20) { //if the timer reaches 20 seconds
+    
+    document.getElementById("startButton").innerHTML = "Hot Day Started"; //changes the start button inner letters
+    alert("Simulation End"); //method alert pop up in browser for final score
+    location.reload();
+    //console.log("Game Over"); 
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -75,7 +141,7 @@ function lightON() {
 
 
 
-/*// Temperature ------------------------------ //
+/* Temperature ------------------------------ 
 function tempUP() {
   temperatureStatus += 5;
   console.log(temperatureStatus);
@@ -85,7 +151,7 @@ function tempDOWN() {
   temperatureStatus -= 5;
   console.log(temperatureStatus);
 }
-*/
+
 
 /*function lightFunctionUP() {
   setTimeout(lightFunctionUP, 750)

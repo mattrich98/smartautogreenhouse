@@ -13,7 +13,13 @@
     position:relative
 }
 
-
+.timer {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+    color: black;
+    user-select: none;
+}
 
 #tempBar{
     width: 25px;
