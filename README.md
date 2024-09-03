@@ -1,5 +1,5 @@
 <h1>Industry Week Project: Smart Automated Greenhouse System</h1>
-As part of the software development bootcamp curriculum, each of us is tasked with creating a project that demonstrates an automated greenhouse.
+As part of the software development bootcamp curriculum, each of us is tasked with creating a project that demonstrates an automated greenhouse. (I misunderstood the assignment, it was meant to be group work)
 <br>
 <hr>
 <strong><u>Plans:</u></strong>
