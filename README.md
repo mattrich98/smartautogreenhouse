@@ -1,14 +1,20 @@
 <h1>Industry Week Project: Smart Automated Greenhouse System</h1>
+As part of the software development bootcamp curriculum, each of us is tasked with creating a project that demonstrates an automated greenhouse.
+<br>
+<hr>
+<strong><u>Plans:</u></strong>
+<ol>
+<li><s>Basic layout done</s></li>
+<li><s> Buttons that have booleans for true and false</s></li>
+<li>Sunlight simulator, maybe using math.random method (Maybe I'll make simulators for cold day, hot day, very hot day, mild day with pressable buttons)</li>
+<li>parallel system that implements how variables effect each other and other numbers/etc. (Using if/else/elseif statements) </li>
+<li>Temperature simulator, it is effected by other variables</li>
+<li>Output box (Not completely necessary as I will have an image output box; but I will see when I get around to it)</li>
+<li>Image output box area on top that demonstrates the changes</li>
+</ol> 
+<hr>
 
-As part of the software development bootcamp curriculum, we are tasked to each make a project that demonstrates a greenhouse
-that can grow a plant under specific conditions related with temperature, windows open/closed and other.
 
-I plan to use HTML, CSS and Javascript to create the project as I am more comfortable with that compared to Python.
-
-Adjustable environmental factors:
-Temperature, humidity, light, soil moisture. (4 SENSORS) 
-
-Fans/Vents, Windows, LED Lights, Heater, Water Pump(Sprinklers/Valves),  (4/5 ADJUSTABLES)
-(^ Crops are affected by the above ^)
-
-I cant use a while loop because you cannot slowdown intervals in one. Therefore I have to use a for loop. 
+- I wanted to practice implenting 'for' and 'while' loops, but ended up not using them because it was too complicated and just served as an additional feature.
+- However, while trying to implement these loops, I've become a little more familiar with them and understand how to make use of them.
+- Within for loops, and many other things, to do complicated instructions, you have to nest a lot of code within eachother. 
