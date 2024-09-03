@@ -47,7 +47,7 @@
 #sunPercent{
     width: 25px;
     height: 10px;
-    background-color: yellow;
+    background-color: red;
     position: absolute;
     opacity: 70%;
 }
