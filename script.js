@@ -125,6 +125,9 @@ function windowON() {
 
   if(windowStatus == true){
     document.getElementById("windowButton").style.backgroundColor = "green";
+    sunStrength++;
+    console.log(sunStrength);
+    document.getElementById("sunPercent").innerHTML = sunStrength;
   }
   else{
     document.getElementById("windowButton").style.backgroundColor = "white";
@@ -160,6 +163,9 @@ function heaterON() {
 
   if(heaterStatus == true){
     document.getElementById("heaterButton").style.backgroundColor = "green";
+    sunStrength+= 1;
+    console.log(sunStrength);
+    document.getElementById("sunPercent").innerHTML = sunStrength;
   }
   else{
     document.getElementById("heaterButton").style.backgroundColor = "white";
@@ -173,6 +179,9 @@ function sprinklerON() {
 
   if(sprinklerStatus == true){
     document.getElementById("sprinklerButton").style.backgroundColor = "green";
+    sunStrength-= 3;
+    console.log(sunStrength);
+    document.getElementById("sunPercent").innerHTML = sunStrength;
   }
   else{
     document.getElementById("sprinklerButton").style.backgroundColor = "white";
@@ -186,6 +195,9 @@ function fanON() {
 
   if(fanStatus == true){
     document.getElementById("fanButton").style.backgroundColor = "green";
+    sunStrength-= 3;
+    console.log(sunStrength);
+    document.getElementById("sunPercent").innerHTML = sunStrength;
   }
   else{
     document.getElementById("fanButton").style.backgroundColor = "white";
