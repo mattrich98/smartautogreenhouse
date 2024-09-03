@@ -3,7 +3,7 @@ let temperatureStatus = 0; //effected in conjunction with the sunStrength variab
 let windowStatus = false;
 let heaterStatus = false;
 let sprinklerStatus = false;
-let lightStatus = false;
+let fanStatus = false;
 let sunTimer = 0;
 
 function hotSim(){
@@ -36,7 +36,7 @@ function timerIntervals() {
 
 
     if (sunStrength < 35 ) {
-      sunStrength += 3;
+      sunStrength += 5;
       document.getElementById("sunPercent").innerHTML = sunStrength;
       document.getElementById("sunPercent").style.height = sunStrength + sunStrength + sunStrength + sunStrength + sunStrength + "px";
     } else {
@@ -55,22 +55,43 @@ function timerIntervals() {
       windowStatus == true;
       document.getElementById("windowButton").style.backgroundColor = "green";
       sunStrength++
-
     }
     else{
       windowStatus == false;
       document.getElementById("windowButton").style.backgroundColor = "white";
     }
 
-    if(sunStrength >= 22){
+    if(sunStrength <= 13){
+      heaterStatus == true;
+      document.getElementById("heaterButton").style.backgroundColor = "green";
+      sunStrength += 1;
+    }
+    else{
+      windowStatus == false;
+      document.getElementById("heaterButton").style.backgroundColor = "white";
+    }
+
+    if(sunStrength >= 30){
+      fanStatus == true;
+      document.getElementById("fanButton").style.backgroundColor = "green";
+      sunStrength += 1;
+    }
+    else{
+      windowStatus == false;
+      document.getElementById("heaterButton").style.backgroundColor = "white";
+    }
+
+    if(sunStrength >= 24){
       sprinklerStatus == true;
       document.getElementById("sprinklerButton").style.backgroundColor = "green";
-      sunStrength-= 2;
+      sunStrength-= 4;
     }
     else{
       sprinklerStatus == false;
       document.getElementById("sprinklerButton").style.backgroundColor = "white";
     }
+
+  
 
     
 
@@ -150,16 +171,16 @@ function sprinklerON() {
   }
 }
 
-// Light ------------------------------ //
-function lightON() {
- lightStatus = !lightStatus;
-  console.log(lightStatus);
+// fan ------------------------------ //
+function fanON() {
+ fanStatus = !fanStatus;
+  console.log(fanStatus);
 
-  if(lightStatus == true){
-    document.getElementById("lightButton").style.backgroundColor = "green";
+  if(fanStatus == true){
+    document.getElementById("fanButton").style.backgroundColor = "green";
   }
   else{
-    document.getElementById("lightButton").style.backgroundColor = "white";
+    document.getElementById("fanButton").style.backgroundColor = "white";
   }
 }
 
