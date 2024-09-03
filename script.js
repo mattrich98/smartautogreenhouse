@@ -34,16 +34,31 @@ function timerIntervals() {
     //stops play button press
     document.getElementById("inputButton").onclick = sunTimer; //so you can only click the play button once to start game
 
-    if(sunStrength <= 13){
-      document.getElementById("windowButton").style.backgroundColor = "green";
+
+    if (sunStrength < 35 ) {
+      sunStrength += 3;
+      document.getElementById("sunPercent").innerHTML = sunStrength;
+      document.getElementById("sunPercent").style.height = sunStrength + sunStrength + sunStrength + sunStrength + sunStrength + "px";
+    } else {
+      sunStrength = 35;
+      document.getElementById("sunPercent").innerHTML = sunStrength;
+      //document.getElementById("sunPercent").style.height = "35px";
     }
-    else{
-      document.getElementById("windowButton").style.backgroundColor = "white";
+/*
+    if(sunStrength < 35){
+      document.getElementById("sunPercent").innerHTML + 5;
     }
+    else if (sunStrength > 35){
+      document.getElementById("sunPercent").innerHTML == 35;
+      
+    }
+*/
 
 
 
-    if (sunTimer == 1) {
+
+
+    /*if (sunTimer == 1) {
 
       document.getElementById("sunPercent").innerHTML = sunStrength;
       document.getElementById("sunPercent").style.height = "20px";
@@ -51,13 +66,8 @@ function timerIntervals() {
       sunStrength++
       console.log(sunStrength);
       console.log("this is a test")
-
-
     }
-
-
-
-
+    */
 
 
 
