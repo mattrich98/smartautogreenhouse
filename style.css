@@ -45,12 +45,11 @@
     float: right;
 }
 
-#sunPercentage{
+#sunPercent{
     width: 25px;
     height: 10px;
     background-color: yellow;
     position: absolute;
-    bottom: 0;
 }
 
 #buttonContainer{

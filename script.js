@@ -44,7 +44,10 @@ function timerIntervals() {
 
 
     if (sunTimer == 1) {
+
       document.getElementById("sunPercent").innerHTML = sunStrength;
+      document.getElementById("sunPercent").style.height = "20px";
+      document.getElementById("sunPercent").innerHTML = "1";
       sunStrength++
       console.log(sunStrength);
       console.log("this is a test")
