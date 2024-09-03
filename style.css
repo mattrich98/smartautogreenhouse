@@ -4,13 +4,29 @@
     height: 300px;
     border: 2px groove black;
 
-    display: flex;
+    
     justify-content: center;
     align-items: center;
     margin: auto;
 
     z-index: 9999;
     position:relative
+}
+
+
+
+#tempBar{
+    width: 25px;
+    height: 298px;
+    border: 2px groove black;
+    float: left;
+}
+
+#sunBar{
+    width: 25px;
+    height: 298px;
+    border: 2px groove black;
+    float: right;
 }
 
 #buttonContainer{
