@@ -6,7 +6,6 @@ let sprinklerStatus = false;
 let lightStatus = false;
 let sunTimer = 0;
 
-
 function hotSim(){
   hotDayStart()
   timerIntervals()
@@ -26,24 +25,42 @@ function timerIntervals() {
   
 
   if (sunTimer <= 24) {
-
-
     // Dont Touch Below vvvvvvvvvvvvvvvvv
-    setTimeout(timerIntervals, 750); 
+    setTimeout(timerIntervals, 750);
 
-
-    document.getElementById("timeNumber").innerHTML = sunTimer; 
-    document.getElementById("inputButton").innerHTML = "Simulation Started"; 
+    document.getElementById("timeNumber").innerHTML = sunTimer;
+    document.getElementById("inputButton").innerHTML = "Simulation Started";
 
     //stops play button press
     document.getElementById("inputButton").onclick = sunTimer; //so you can only click the play button once to start game
-   
 
-    /*if (sunTimer == 1){
-      document.getElementById('enemy1').style.display= displayRandom; 
-    } */
+    if(sunStrength <= 13){
+      document.getElementById("windowButton").style.backgroundColor = "green";
+    }
+    else{
+      document.getElementById("windowButton").style.backgroundColor = "white";
+    }
 
-  //stops setTimeout loop
+
+
+    if (sunTimer == 1) {
+      document.getElementById("sunPercent").innerHTML = sunStrength;
+      sunStrength++
+      console.log(sunStrength);
+      console.log("this is a test")
+
+
+    }
+
+
+
+
+
+
+
+
+
+    //stops setTimeout loop
   } else if (sunTimer >= 24) { //if the timer reaches 20 seconds
     
     document.getElementById("inputButton").innerHTML = "Simulation Ended"; //changes the start button inner letters
