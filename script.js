@@ -7,7 +7,7 @@ let lightStatus = false;
 
 
 // Window ------------------------------ //
-function windowOpen() {
+function windowON() {
   windowStatus = !windowStatus;
   console.log(windowStatus);
 
