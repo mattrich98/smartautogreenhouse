@@ -10,24 +10,52 @@ let lightStatus = false;
 function windowOpen() {
   windowStatus = !windowStatus;
   console.log(windowStatus);
+
+  if(windowStatus == true){
+    document.getElementById("windowButton").style.backgroundColor = "green";
+  }
+  else{
+    document.getElementById("windowButton").style.backgroundColor = "white";
+  }
 }
 
 // Heater ------------------------------ //
 function heaterON() {
   heaterStatus = !heaterStatus;
   console.log(heaterStatus);
+
+  if(heaterStatus == true){
+    document.getElementById("heaterButton").style.backgroundColor = "green";
+  }
+  else{
+    document.getElementById("heaterButton").style.backgroundColor = "white";
+  }
 }
 
 // Sprinkler ------------------------------ //
 function sprinklerON() {
   sprinklerStatus = !sprinklerStatus;
   console.log(sprinklerStatus);
+
+  if(sprinklerStatus == true){
+    document.getElementById("sprinklerButton").style.backgroundColor = "green";
+  }
+  else{
+    document.getElementById("sprinklerButton").style.backgroundColor = "white";
+  }
 }
 
 // Light ------------------------------ //
 function lightON() {
  lightStatus = !lightStatus;
   console.log(lightStatus);
+
+  if(lightStatus == true){
+    document.getElementById("lightButton").style.backgroundColor = "green";
+  }
+  else{
+    document.getElementById("lightButton").style.backgroundColor = "white";
+  }
 }
 
 
