@@ -48,6 +48,55 @@
     position:relative;
 }
 
+#windowButton { /*hashtag is for CSS ID */
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;;
+
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    z-index: 9999;
+    position:relative;
+}
+
+#heaterButton { /*hashtag is for CSS ID */
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;;
+
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    z-index: 9999;
+    position:relative;
+}
+
+#sprinklerButton { /*hashtag is for CSS ID */
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;;
+
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    z-index: 9999;
+    position:relative;
+}
+
+#lightButton { /*hashtag is for CSS ID */
+    background-color: rgb(255, 255, 255);
+    width: 100px;
+    height: 30px;;
+
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    z-index: 9999;
+    position:relative;
+}
+
+
 #output {
     background-color: rgb(221, 221, 221);
     width: 396px;
