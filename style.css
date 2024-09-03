@@ -22,11 +22,28 @@
     float: left;
 }
 
+#tempPercentage{
+    width: 25px;
+    height: 10px;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    
+}
+
 #sunBar{
     width: 25px;
     height: 298px;
     border: 2px groove black;
     float: right;
+}
+
+#sunPercentage{
+    width: 25px;
+    height: 10px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 0;
 }
 
 #buttonContainer{
