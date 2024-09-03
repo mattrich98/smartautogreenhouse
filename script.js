@@ -71,20 +71,28 @@ function timerIntervals() {
       document.getElementById("heaterButton").style.backgroundColor = "white";
     }
 
-    if(sunStrength >= 30){
+
+
+
+    if(sunStrength >= 25){
       fanStatus == true;
       document.getElementById("fanButton").style.backgroundColor = "green";
-      sunStrength += 1;
+      sunStrength -=3;
     }
     else{
       windowStatus == false;
-      document.getElementById("heaterButton").style.backgroundColor = "white";
+      document.getElementById("fanButton").style.backgroundColor = "white";
     }
 
-    if(sunStrength >= 24){
+
+
+
+
+
+    if(sunStrength >= 19){
       sprinklerStatus == true;
       document.getElementById("sprinklerButton").style.backgroundColor = "green";
-      sunStrength-= 4;
+      sunStrength-= 3;
     }
     else{
       sprinklerStatus == false;
