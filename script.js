@@ -45,39 +45,34 @@ function timerIntervals() {
       //document.getElementById("sunPercent").style.height = "35px";
     }
 
-    if (sunTimer >= 19) {
-      sunStrength -= 6;
+    if (sunTimer >= 18) {
+      sunStrength -= 3;
       document.getElementById("sunPercent").innerHTML = sunStrength;
       document.getElementById("sunPercent").style.height = sunStrength - sunStrength - sunStrength - sunStrength - sunStrength + "px";
     } 
-/*
 
-    if(sunStrength < 35){
-      document.getElementById("sunPercent").innerHTML + 5;
-    }
-    else if (sunStrength > 35){
-      document.getElementById("sunPercent").innerHTML == 35;
-      
-    }
-*/
-
-
-
-
-
-    /*if (sunTimer == 1) {
-
-      document.getElementById("sunPercent").innerHTML = sunStrength;
-      document.getElementById("sunPercent").style.height = "20px";
-      document.getElementById("sunPercent").innerHTML = "1";
+    if(sunStrength <= 15){
+      windowStatus == true;
+      document.getElementById("windowButton").style.backgroundColor = "green";
       sunStrength++
-      console.log(sunStrength);
-      console.log("this is a test")
+
     }
-    */
+    else{
+      windowStatus == false;
+      document.getElementById("windowButton").style.backgroundColor = "white";
+    }
 
+    if(sunStrength >= 25){
+      sprinklerStatus == true;
+      document.getElementById("sprinklerButton").style.backgroundColor = "green";
+      sunStrength-= 2;
+    }
+    else{
+      sprinklerStatus == false;
+      document.getElementById("sprinklerButton").style.backgroundColor = "white";
+    }
 
-
+    
 
 
     //stops setTimeout loop
@@ -94,28 +89,6 @@ function timerIntervals() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Window ------------------------------ //
 function windowON() {
   windowStatus = !windowStatus;
@@ -128,6 +101,28 @@ function windowON() {
     document.getElementById("windowButton").style.backgroundColor = "white";
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Heater ------------------------------ //
 function heaterON() {

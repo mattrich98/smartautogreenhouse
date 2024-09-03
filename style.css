@@ -50,6 +50,7 @@
     height: 10px;
     background-color: yellow;
     position: absolute;
+    opacity: 70%;
 }
 
 #buttonContainer{
