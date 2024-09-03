@@ -44,7 +44,14 @@ function timerIntervals() {
       document.getElementById("sunPercent").innerHTML = sunStrength;
       //document.getElementById("sunPercent").style.height = "35px";
     }
+
+    if (sunTimer >= 19) {
+      sunStrength -= 6;
+      document.getElementById("sunPercent").innerHTML = sunStrength;
+      document.getElementById("sunPercent").style.height = sunStrength - sunStrength - sunStrength - sunStrength - sunStrength + "px";
+    } 
 /*
+
     if(sunStrength < 35){
       document.getElementById("sunPercent").innerHTML + 5;
     }
