@@ -38,7 +38,7 @@ function timerIntervals() {
     if (sunStrength < 35 ) {
       sunStrength += 5;
       document.getElementById("sunPercent").innerHTML = sunStrength;
-      document.getElementById("sunPercent").style.height = sunStrength + sunStrength + sunStrength + sunStrength + sunStrength + "px";
+      document.getElementById("sunPercent").style.height = sunStrength + sunStrength + sunStrength + sunStrength + sunStrength + sunStrength + sunStrength + "px";
     } else {
       sunStrength = 35;
       document.getElementById("sunPercent").innerHTML = sunStrength;
@@ -48,7 +48,7 @@ function timerIntervals() {
     if (sunTimer >= 17) {
       sunStrength -= 3;
       document.getElementById("sunPercent").innerHTML = sunStrength;
-      document.getElementById("sunPercent").style.height = sunStrength - sunStrength - sunStrength - sunStrength - sunStrength + "px";
+      document.getElementById("sunPercent").style.height = sunStrength - sunStrength - sunStrength - sunStrength - sunStrength -sunStrength - sunStrength + "px";
     } 
 
     if(sunStrength <= 15){
