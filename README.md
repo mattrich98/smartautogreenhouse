@@ -18,4 +18,4 @@ As part of the software development bootcamp curriculum, each of us is tasked wi
 <li>I wanted to practice implenting 'for' and 'while' loops, but ended up not using them because it was too complicated and just served as an additional feature.</li>
 <li>However, while trying to implement these loops, I've become a little more familiar with them and understand how to make use of them.</li>
 <li>Within for loops, and many other things, to do complicated instructions, you have to nest a lot of code within eachother. </li>
-<li>Regarding setTimeout being asynchronous, I could also look into requestAnimationFrame() or setInterval(), </li>
+<li>Regarding setTimeout being asynchronous, I could also look into requestAnimationFrame() maybe, </li>
